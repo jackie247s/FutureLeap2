@@ -1,0 +1,106 @@
+/* -------- Reusable classes ---------- */
+.no-display {
+    display: none;
+}
+
+/* -------- Navbar ---------- */
+#header.style1 .nav-wrap ul.menu>li>a {
+    color: #fff;
+}
+
+#mainnav 
+ul.menu > li.active > a, 
+#mainnav ul.menu > li > a:hover, 
+#header.style1.v1 #mainnav > ul.menu > li.active > a {
+    color: #eee;
+}
+
+/* -------- Home Page ---------- */
+.get-quote a {
+    color: #fff;
+}
+
+/* -------- About Us ---------- */
+.bgimage-aboutus {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/about-us.jpeg');
+}
+
+.organizational-chart {
+    display: block;
+    margin: 0 auto;
+}
+
+.flat-testimonial .flat-title{
+    margin-bottom: 0;
+}
+
+.flat-testimonial .flat-title h2{
+    margin-bottom: 0;
+}
+
+/* -------- Contact Us ---------- */
+.bgimage-contactus {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/contact-us.jpg');
+    background-position: 30% 0px;
+}
+
+/* -------- Divisions ---------- */
+#main-blog.single {
+    padding-bottom: 0;
+}
+
+.content-post .box-single {
+    margin-top: 50px;
+}
+
+ul.services-list {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+ul.services-list li {
+    list-style-type: disc;
+}
+
+.page-title .title-heading .box-title h1 {
+    color: white;
+}
+
+.content-post .box-single:first-of-type {
+    margin-top: 40px;
+}
+
+.bgimage-mep,
+.bgimage-construction,
+.bgimage-firefighting,
+.bgimage-infrastructure,
+.bgimage-facilitymanagement {
+    background-size: cover;
+    background-position: center center;
+}
+
+/* -------- MEP ---------- */
+.bgimage-mep {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/mep.jpeg');
+}
+
+/* -------- Construction ---------- */
+.bgimage-construction {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/construction.jpeg');
+}
+
+/* -------- Firefighting ---------- */
+.bgimage-firefighting {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/firefighting.jpeg');
+}
+
+/* -------- Infrastructure ---------- */
+.bgimage-infrastructure {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/infrastructure.jpeg');
+}
+
+/* -------- Facility Management ---------- */
+.bgimage-facilitymanagement {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('../images/facility-management.jpeg');
+}
+
